@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LiquidRug Token</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #00bcd4;
+      --bg-dark: #0f0f0f;
+      --text-light: #f5f5f5;
+      --glass: rgba(26, 26, 26, 0.85);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Bungee', cursive;
+      background: url('May 25, 2025 at 12_37_12 AM.png') center center / cover no-repeat fixed;
+      color: var(--text-light);
+      background-color: var(--bg-dark);
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: var(--glass);
+      backdrop-filter: blur(6px);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: var(--primary);
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: var(--text-light);
+      margin: 0 1rem;
+      text-decoration: none;
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 6rem 2rem;
+      background: var(--glass);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 1rem auto 2rem;
+    }
+
+    .btn {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      background: var(--primary);
+      color: #000;
+      border: none;
+      border-radius: 40px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #00acc1;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .features {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: var(--glass);
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LIQUIDRUG</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#tokenomics">Tokenomics</a>
+      <a href="#community">Community</a>
+      <a href="#join">Join</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>The Most Liquid Rug Ever</h2>
+    <p>LiquidRug is a chaotic meme token soaked in irony and liquidity. Join the most unstable decentralized party in crypto history.</p>
+    <a href="https://example.com" class="btn" id="join">Join the Rugpool</a>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About LiquidRug</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Fully Decentralized</h3>
+        <p>No roadmap. No promises. Pure meme energy.</p>
+      </div>
+      <div class="card">
+        <h3>Rugproof Liquidity</h3>
+        <p>Liquidity locked tighter than your MetaMask passphrase.</p>
+      </div>
+      <div class="card">
+        <h3>Community-Driven</h3>
+        <p>Governed by memes, fueled by vibes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tokenomics">
+    <h2>Tokenomics</h2>
+    <div class="features">
+      <div class="card">
+        <h3>1 Trillion Supply</h3>
+        <p>Because smaller numbers are for serious projects.</p>
+      </div>
+      <div class="card">
+        <h3>0% Tax</h3>
+        <p>We rug the game, not the community.</p>
+      </div>
+      <div class="card">
+        <h3>Burn Mechanics</h3>
+        <p>Set tokens on fire like the meme economy it is.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="community">
+    <h2>Community</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Telegram</h3>
+        <p>Join the mayhem, one sticker at a time.</p>
+      </div>
+      <div class="card">
+        <h3>X (Twitter)</h3>
+        <p>We tweet, we meme, we pump (sometimes).</p>
+      </div>
+      <div class="card">
+        <h3>Discord</h3>
+        <p>Dev memes, Degen dreams, and decentralized screams.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 LiquidRug. Made with volatility.
+  </footer>
+</body>
+</html>
